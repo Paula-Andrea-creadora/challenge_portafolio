@@ -1,0 +1,868 @@
+/* importacion de letras */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&display=swap");
+
+/* cambio universal */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+/* declaracion de variables */
+:root{
+    --color-primario:#DEF5E5;
+    --color-secundario:#BCEAD5;
+    --color-terciario:#9ED5C5;
+    --color-cuartario:#8EC3B0;
+    --color-letras:#1f1f1f; 
+    --color-letras-logo:#ffffff;
+
+    --fuente-logo:"Arimo",sans-serif;
+    --fuente-cuerpo:"Arimo",sans-serif;
+}
+
+/* declaracion de body */
+
+.cuerpo{
+    height: 100vh;
+    padding: 0% 0% 0% 0%;  
+    
+}
+
+
+
+.logo_estilo{
+    width: 100%;
+    height: 150px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    background: var(--color-primario);
+    color:var(--color-cuartario);
+    font-family:var(--fuente-logo);
+    font-style: italic;
+    justify-content: center;
+}
+
+
+
+
+
+.ventanas{
+    background-color: var(--color-secundario);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap:60px;  
+}
+
+.ventana_estilo{
+   text-align: center;
+   outline:none;
+   border:none;
+   font-size: 20px;
+   background: var(--color-secundario);
+   padding: 5px;
+}
+
+.ventana_estilo a{
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--fuente-cuerpo);
+    color: var(--fuente-cuerpo);
+}
+
+.ventana_estilo a:hover{
+    background: var(--color-cuartario);
+    color: var(--color-letras-logo);
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.secciones_del_porfolio {
+    
+    /* height: 10000px; */ /* Eliminar esta propiedad */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--color-terciario);
+    gap: 25px;
+    padding: 10px;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center; /* Centra el texto horizontalmente */
+} 
+  
+.section_b {
+    font-family: var(--fuente-cuerpo);
+    /* height: 150px; */ /* Eliminar esta propiedad */
+    padding: 10px;
+    /* flex-direction: column; */ /* Eliminar esta propiedad */
+    /* align-items: center; */ /* Eliminar esta propiedad */
+}
+  
+.texto-secundario {
+    padding: 10px;
+    font-size: 18px;
+    font-family: var(--fuente-cuerpo);
+}
+
+.sobre-mi{
+    height: 165px;
+    border-radius: 5px;
+    padding:30px;
+    gap:10px;
+}
+
+.imagenes{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content:space-between;
+    padding:1rem;
+}
+
+
+
+
+.icono_academicos{
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+}
+
+.certificados{
+    height: 150px;
+    border-radius: 5px;
+    gap: 40px;
+    padding:30px;
+}
+
+.certificados:hover{
+    height: 165px;
+}
+
+
+.lista_hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.ejercicios{
+    width: 600px;
+    height: 330px;
+    gap:10px;
+}
+
+.lista_porfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:3.75rem;
+}
+
+
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    gap:150px;
+    
+}
+
+.imagen_contacto{
+    height:100px; 
+    height:250px
+   
+}
+  
+.cuadro-contacto {
+    display: flex;
+    flex-direction: column;
+    
+    background: var(--color-primario);
+    border-radius: 15px;
+    padding: 15px;
+}
+  
+.subtitulo-contacto {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    gap: 0.625rem;
+}
+  
+.texto{
+    font-size: 15px;
+    padding: 5px;
+}
+  
+.cuadro {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fuente-cuerpo);
+    border-radius: 3px;
+    font-size: 20px;
+    gap: 20px; /* Ahora la propiedad gap funciona correctamente */
+}
+
+.cuadro-texto{
+    border-radius: 5px;
+    text-transform: lowercase;
+    font-family: var(--fuente-cuerpo);
+    outline: none;
+    border: none;
+}
+
+.cuadro-texto-1{
+    border-radius: 5px;
+    font-family: var(--fuente-cuerpo);
+    outline: none;
+    border: none;
+    height: 150px;
+
+}
+
+.enviar{
+    background-color: var(--color-secundario);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.enviar:hover{
+    background-color: var(--color-terciario);
+    color: var(--color-letras-logo);
+}
+
+
+
+
+
+
+
+
+
+
+
+.estilo_footer {
+    background: var(--color-cuartario);
+    color: var(--color-letras);
+    font-family: var(--fuente-cuerpo);
+    font-size: 50px;
+    /* height: 150px; */ /* Eliminar esta propiedad */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: 30px;
+}
+
+.imagen-link{
+    width: 40px;
+}
+  
+.enlaces {
+    /* margin: 50px; */ /* Eliminar esta propiedad */
+    display: flex;
+    flex-direction: row;
+    gap: 500px; /* Ajustar el espacio entre los enlaces */
+}
+
+
+
+.boton-inicio {
+    position: fixed; /* Fija el botón en la pantalla, independientemente del scroll */
+    bottom: 20px; /* Coloca el botón a 20 píxeles de la parte inferior de la pantalla */
+    right: 20px; /* Coloca el botón a 20 píxeles de la parte derecha de la pantalla */
+    background-color: transparent; /* Define el color de fondo del botón como transparente */
+    color: white; /* Define el color del texto del botón como blanco */
+    padding: 5px 10px; /* Agrega un espacio interno de 10 píxeles en la parte superior e inferior, y 20 píxeles a la izquierda y derecha */
+    border-radius: 5px; /* Redondea las esquinas del botón con un radio de 5 píxeles */
+    text-decoration: none; /* Elimina la decoración del texto (subrayado) */
+    display: flex; /* Define el botón como un contenedor flexible */
+    align-items: center; /* Alinea los elementos del botón verticalmente al centro */
+    justify-content: center; /* Alinea los elementos del botón horizontalmente al centro */
+    cursor: pointer; /* Cambia el cursor del ratón a un puntero al pasar sobre el botón */
+}
+
+.boton-inicio i {
+    font-size: 10px; /* Define el tamaño de la fuente del icono como 10 píxeles */
+}
+
+.boton-subir{
+    height: 40px;
+}
+
+
+/* Visualizaciones*/
+/* tablet 700px */
+
+@media (max-width:700px){
+    
+    .cuerpo{
+        width: auto;
+        height: 100vh;
+        padding: 0% 0% 0% 0%;  
+    }
+
+    .logo_estilo{
+        height: 40px;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        font-style: italic;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    
+    .ventanas{
+        gap:10px;  
+    }
+    
+    .ventana_estilo{
+       
+       font-size: 10px;
+       
+       padding: 2px;
+    }
+    
+    .ventana_estilo a{
+        text-align: center;
+        text-decoration: none;
+        font-family: var(--fuente-cuerpo);
+        color: var(--fuente-cuerpo);
+    }
+    
+    .ventana_estilo a:hover{
+        background: var(--color-cuartario);
+        color: var(--color-letras-logo);
+        font-weight: 700;
+        font-style: italic;
+    }
+    
+    
+    .secciones_del_porfolio {
+        
+        /* height: 10000px; */ /* Eliminar esta propiedad */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: var(--color-terciario);
+        gap: 5px;
+        padding: 3px;
+    }
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulo {
+        text-align: center; /* Centra el texto horizontalmente */
+    } 
+      
+    .section_b {
+        font-family: var(--fuente-cuerpo);
+        /* height: 150px; */ /* Eliminar esta propiedad */
+        padding: 2px;
+        /* flex-direction: column; */ /* Eliminar esta propiedad */
+        /* align-items: center; */ /* Eliminar esta propiedad */
+    }
+      
+    .texto-secundario {
+        padding: 5px;
+        font-size: 9px;
+    }
+    
+    .sobre-mi{
+        height: 50px;
+        border-radius: 2px;
+        padding:3px;
+        gap:8px;
+    }
+    
+    .imagenes{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items:flex-end;
+        justify-content:space-between;
+        padding:10px;
+    }
+    
+    
+    
+    
+    .icono_academicos{
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        gap:10px;
+    }
+    
+    .certificados{
+        height: 80px;
+        border-radius: 2px;
+        gap: 10px;
+        padding:10px;
+    }
+    
+  
+    
+    
+    .lista_hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    
+    .ejercicios{
+        width: 300px;
+        height: 130px;
+        gap:5px;
+    }
+    
+    .lista_porfolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+    }
+    
+    
+    
+    .contacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+        gap:75px;
+        
+    }
+    
+    .imagen_contacto{
+        height:50px; 
+        
+       
+    }
+      
+    .cuadro-contacto {
+        display: flex;
+        flex-direction: column;
+        
+        background: var(--color-primario);
+        border-radius: 15px;
+        padding: 15px;
+    }
+      
+    .subtitulo-contacto {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25rem;
+        gap: 0.625rem;
+    }
+      
+    .texto{
+        font-size: 7px;
+        padding: 2px;
+    }
+      
+    .cuadro {
+        display: flex;
+        flex-direction: column;
+        
+        border-radius: 1px;
+        font-size: 10px;
+        gap: 10px; /* Ahora la propiedad gap funciona correctamente */
+    }
+    
+    .cuadro-texto{
+        border-radius: 2px;
+      
+    }
+    
+    .cuadro-texto-1{
+        border-radius: 5px;
+        
+        outline: none;
+        border: none;
+        height: 70px;
+    
+    }
+    
+    .enviar{
+        
+        padding: 2px;
+        border-radius: 2px;
+        cursor: pointer;
+        
+    }
+    
+    .enviar:hover{
+        background-color: var(--color-terciario);
+        color: var(--color-letras-logo);
+    }
+    
+    
+    
+    .estilo_footer {
+        background: var(--color-cuartario);
+        color: var(--color-letras);
+        font-family: var(--fuente-cuerpo);
+        font-size: 20px;
+        /* height: 150px; */ /* Eliminar esta propiedad */
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        padding: 15px;
+    }
+    
+    .imagen-link{
+        width: 20px;
+    }
+      
+    .enlaces {
+        /* margin: 50px; */ /* Eliminar esta propiedad */
+        display: flex;
+        flex-direction: row;
+        gap: 250px; /* Ajustar el espacio entre los enlaces */
+    }
+    
+    
+    
+    .boton-inicio {
+        position: fixed; /* Fija el botón en la pantalla, independientemente del scroll */
+        bottom: 10px; /* Coloca el botón a 20 píxeles de la parte inferior de la pantalla */
+        right: 10px; /* Coloca el botón a 20 píxeles de la parte derecha de la pantalla */
+        background-color: transparent; /* Define el color de fondo del botón como transparente */
+        color: white; /* Define el color del texto del botón como blanco */
+        padding: 2px 5px; /* Agrega un espacio interno de 10 píxeles en la parte superior e inferior, y 20 píxeles a la izquierda y derecha */
+        border-radius: 2px; /* Redondea las esquinas del botón con un radio de 5 píxeles */
+        text-decoration: none; /* Elimina la decoración del texto (subrayado) */
+        display: flex; /* Define el botón como un contenedor flexible */
+        align-items: center; /* Alinea los elementos del botón verticalmente al centro */
+        justify-content: center; /* Alinea los elementos del botón horizontalmente al centro */
+        cursor: pointer; /* Cambia el cursor del ratón a un puntero al pasar sobre el botón */
+    }
+    
+    .boton-inicio i {
+        font-size: 5px; /* Define el tamaño de la fuente del icono como 10 píxeles */
+    }
+    
+    .boton-subir{
+        height: 10px;
+    }
+
+    
+}
+
+
+
+
+/* Visualizaciones*/
+/* tablet 400px */
+
+
+@media (max-width:400px){
+    
+    .cuerpo{
+        width: auto;
+        height: 100vh;
+        padding: 0% 0% 0% 0%;  
+    }
+
+    .logo_estilo{
+        height: 20px;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        font-style: italic;
+        justify-content: center;
+    }
+    
+    
+    
+    
+    
+    .ventanas{
+        gap:5px;  
+    }
+    
+    .ventana_estilo{
+       
+       font-size: 8px;
+       
+       padding: 2px;
+    }
+    
+    .ventana_estilo a{
+        text-align: center;
+        text-decoration: none;
+        font-family: var(--fuente-cuerpo);
+        color: var(--fuente-cuerpo);
+    }
+    
+    .ventana_estilo a:hover{
+        background: var(--color-cuartario);
+        color: var(--color-letras-logo);
+        font-weight: 700;
+        font-style: italic;
+    }
+    
+    
+    .secciones_del_porfolio {
+        
+        /* height: 10000px; */ /* Eliminar esta propiedad */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background: var(--color-terciario);
+        gap: 5px;
+        padding: 3px;
+    }
+    
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulo {
+        text-align: center; /* Centra el texto horizontalmente */
+    } 
+      
+    .section_b {
+        font-family: var(--fuente-cuerpo);
+        /* height: 150px; */ /* Eliminar esta propiedad */
+        padding: 2px;
+        /* flex-direction: column; */ /* Eliminar esta propiedad */
+        /* align-items: center; */ /* Eliminar esta propiedad */
+    }
+      
+    .texto-secundario {
+        padding: 5px;
+        font-size: 9px;
+    }
+    
+    .sobre-mi{
+        height: 25px;
+        border-radius: 2px;
+        padding:3px;
+        gap:8px;
+    }
+    
+    .imagenes{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        align-items:flex-end;
+        justify-content:space-between;
+        padding:10px;
+        gap: 25px;
+    }
+    
+    
+    
+    
+    .icono_academicos{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        
+    }
+    
+    .certificados{
+        height: 25px;
+        border-radius: 2px;
+        gap: 8px;
+        padding:3px;
+    }
+    
+  
+    
+    
+    .lista_hobbies{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    
+    .ejercicios{
+        width: 300px;
+        height: 130px;
+        gap:5px;
+    }
+    
+    .lista_porfolio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:5px;
+    }
+    
+    
+    
+    .contacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px;
+        gap:20px;
+        
+    }
+    
+    .imagen_contacto{
+        height:20px; 
+       
+    }
+      
+    .cuadro-contacto {
+        display: flex;
+        flex-direction: column;
+        
+        background: var(--color-primario);
+        border-radius: 5px;
+        padding: 7px;
+    }
+      
+    .subtitulo-contacto {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.25rem;
+        gap: 0.625rem;
+    }
+      
+    .texto{
+        font-size: 7px;
+        padding: 2px;
+    }
+      
+    .cuadro {
+        display: flex;
+        flex-direction: column;
+        
+        border-radius: 1px;
+        font-size: 10px;
+        gap: 10px; /* Ahora la propiedad gap funciona correctamente */
+    }
+    
+    .cuadro-texto{
+        border-radius: 2px;
+      
+    }
+    
+    .cuadro-texto-1{
+        border-radius: 5px;
+        
+        outline: none;
+        border: none;
+        height: 40px;
+    
+    }
+    
+    .enviar{
+        
+        padding: 2px;
+        border-radius: 2px;
+        cursor: pointer;
+        
+    }
+    
+    .enviar:hover{
+        background-color: var(--color-terciario);
+        color: var(--color-letras-logo);
+    }
+    
+    
+    
+    .estilo_footer {
+        background: var(--color-cuartario);
+        color: var(--color-letras);
+        font-family: var(--fuente-cuerpo);
+        font-size: 20px;
+        /* height: 150px; */ /* Eliminar esta propiedad */
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        padding: 15px;
+    }
+    
+    .imagen-link{
+        width: 20px;
+    }
+      
+    .enlaces {
+        /* margin: 50px; */ /* Eliminar esta propiedad */
+        display: flex;
+        flex-direction: row;
+        gap: 50px; /* Ajustar el espacio entre los enlaces */
+    }
+    
+    
+    
+    .boton-inicio {
+        position: fixed; /* Fija el botón en la pantalla, independientemente del scroll */
+        bottom: 10px; /* Coloca el botón a 20 píxeles de la parte inferior de la pantalla */
+        right: 10px; /* Coloca el botón a 20 píxeles de la parte derecha de la pantalla */
+        background-color: transparent; /* Define el color de fondo del botón como transparente */
+        color: white; /* Define el color del texto del botón como blanco */
+        padding: 2px 5px; /* Agrega un espacio interno de 10 píxeles en la parte superior e inferior, y 20 píxeles a la izquierda y derecha */
+        border-radius: 2px; /* Redondea las esquinas del botón con un radio de 5 píxeles */
+        text-decoration: none; /* Elimina la decoración del texto (subrayado) */
+        display: flex; /* Define el botón como un contenedor flexible */
+        align-items: center; /* Alinea los elementos del botón verticalmente al centro */
+        justify-content: center; /* Alinea los elementos del botón horizontalmente al centro */
+        cursor: pointer; /* Cambia el cursor del ratón a un puntero al pasar sobre el botón */
+    }
+    
+    .boton-inicio i {
+        font-size: 5px; /* Define el tamaño de la fuente del icono como 10 píxeles */
+    }
+    
+    .boton-subir{
+        height: 10px;
+    }
+
+    
+}
+
