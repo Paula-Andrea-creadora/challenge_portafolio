@@ -820,7 +820,7 @@
         font-family: var(--fuente-cuerpo);
         font-size: 20px;
         /* height: 150px; */ /* Eliminar esta propiedad */
-        height: 30px;
+        height: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;   
@@ -856,7 +856,7 @@
     }
     
     .boton-inicio i {
-        font-size: 5px; /* Define el tamaño de la fuente del icono como 10 píxeles */
+        font-size: 15px; /* Define el tamaño de la fuente del icono como 10 píxeles */
     }
     
     .boton-subir{
