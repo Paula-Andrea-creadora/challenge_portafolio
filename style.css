@@ -820,7 +820,7 @@
         font-family: var(--fuente-cuerpo);
         font-size: 20px;
         /* height: 150px; */ /* Eliminar esta propiedad */
-        height: 100px;
+        height: 80px;
         display: flex;
         flex-direction: column;
         align-items: center;   
@@ -828,7 +828,7 @@
     }
     
     .imagen-link{
-        width: 20px;
+        width: 40px;
     }
       
     .enlaces {
@@ -860,7 +860,7 @@
     }
     
     .boton-subir{
-        height: 10px;
+        height: 20px;
     }
 
     
