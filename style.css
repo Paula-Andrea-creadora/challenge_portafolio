@@ -678,7 +678,7 @@
     }
     
     .sobre-mi{
-        height: 25px;
+        height: 35px;
         border-radius: 2px;
         padding:3px;
         gap:8px;
@@ -707,7 +707,7 @@
     }
     
     .certificados{
-        height: 25px;
+        height: 35px;
         border-radius: 2px;
         gap: 8px;
         padding:3px;
