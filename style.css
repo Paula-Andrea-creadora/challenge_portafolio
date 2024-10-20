@@ -605,8 +605,8 @@
     }
 
     .logo_estilo{
-        height: 20px;
-        font-size: 15px;
+        height: 40px;
+        font-size: 35px;
         display: flex;
         align-items: center;
         font-style: italic;
