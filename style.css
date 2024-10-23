@@ -712,6 +712,10 @@
         gap: 8px;
         padding:3px;
     }
+
+    .certificados:hover{
+    height: 40px;
+    }
     
   
     
